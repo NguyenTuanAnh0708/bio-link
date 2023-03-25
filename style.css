@@ -8,6 +8,12 @@ body{
     min-height: 100vh;
     background: url('./imgs/background.webp') repeat;
 }
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
 .wapper{
 
 
@@ -72,9 +78,10 @@ body{
     text-align: center;
 }
 .action-game-item__decriptionPrice{
+    display: inline-block;
     text-align: center;
     border: 1px solid red;
-    padding: 5px;
+    padding: 6px;
     color: red;
     margin-bottom: 12px;
     background: #000;
@@ -90,6 +97,7 @@ body{
     border: 1px solid #30343c;
     margin: 10px 10px 10px 0px;
     border-radius: 5px;
+    padding: 5px;
 }
 .action-game-item:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
