@@ -130,6 +130,11 @@ width:100% ;
     background: #8f0d11;
     text-decoration: none;
 }
+.note{
+    color:#BBDF32;
+    text-decoration: underline;
+    font-weight: bold;
+}
 @media (min-width: 768px ) and (max-width: 1199.98px)  {
     .app{
         width: 50vw;        
