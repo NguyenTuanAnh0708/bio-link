@@ -6,7 +6,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background: url('https://tm.ibxk.com.br/2021/12/06/06201246383174.jpg?ims=1120x420') repeat;
+    background: url('./imgs/background.webp') repeat;
 }
 .wapper{
 
