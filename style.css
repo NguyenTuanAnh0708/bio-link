@@ -74,6 +74,7 @@ a{
     justify-content: center;
     align-items: center;
 }
+
 .action-game-item__decription{
     text-align: center;
 }
@@ -98,6 +99,7 @@ a{
     margin: 10px 10px 10px 0px;
     border-radius: 5px;
     padding: 5px;
+    padding: 10px;
 }
 .action-game-item:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
@@ -123,12 +125,13 @@ width:100% ;
     font-size: 16px;
     font-weight: bold;
     outline: 0;
-    color: white;
     border: 2px #FED587 solid;
     border-radius: 5px;
     text-transform: uppercase;
-    background: #8f0d11;
     text-decoration: none;
+    color: #ffffff;
+    background: #4eabe6;
+    border-color: #4eabe6;
 }
 .note{
     color:#BBDF32;
