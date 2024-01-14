@@ -65,6 +65,7 @@
             </a>
           </div>
         </div>
+
         <h5 class="text-center note">Shop blox fruits của mình👇</h5>
         <div class="video-intro">
           <a href="https://ntnroblox.vn/"
@@ -78,13 +79,18 @@
           /></a>
         </div>
       </div>
-      <div class="over-play"></div>
-    </div>
-    <!-- Messenger Plugin chat Code -->
-    <div id="fb-root"></div>
 
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat"></div>
+      <div class="over-play"></div>
+      <!-- icon -->
+      <div class="mess-icon">
+        <a
+          href="https://www.facebook.com/messages/t/108384015579102"
+          target="_blank"
+        >
+          <img src="./imgs/messenger.png" alt="mess-icon" />
+        </a>
+      </div>
+    </div>
   </body>
   <!-- boostrap api -->
   <script
@@ -92,33 +98,5 @@
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"
   ></script>
-
-  <!-- facbook api  -->
-
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute('page_id', '108384015579102');
-    chatbox.setAttribute('attribution', 'biz_inbox');
-  </script>
-
-  <!-- Your SDK code -->
-  <script>
-    window.fbAsyncInit = function () {
-      FB.init({
-        xfbml: true,
-        version: 'v18.0',
-      });
-    };
-
-    (function (d, s, id) {
-      var js,
-        fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    })(document, 'script', 'facebook-jssdk');
-  </script>
 </html>
 <!-- footer mess -->
